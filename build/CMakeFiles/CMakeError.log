@@ -1,0 +1,750 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_cb50e/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cb50e.dir\build.make CMakeFiles/cmTC_cb50e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb50e.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_cb50e.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_cb50e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_cb50e.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\cc1nF3EA.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_cb50e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_cb50e.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\cc1nF3EA.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_cb50e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_cb50e.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cb50e.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_cb50e.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_cb50e.dir/objects.a @CMakeFiles\cmTC_cb50e.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_cb50e.dir\build.make:105: recipe for target 'cmTC_cb50e.exe' failed
+mingw32-make.exe[1]: *** [cmTC_cb50e.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_cb50e/fast' failed
+mingw32-make.exe: *** [cmTC_cb50e/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_a67f4/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a67f4.dir\build.make CMakeFiles/cmTC_a67f4.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a67f4.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_a67f4.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_a67f4.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a67f4.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a67f4.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_a67f4.dir/objects.a @CMakeFiles\cmTC_a67f4.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_a67f4.dir\build.make:106: recipe for target 'cmTC_a67f4.exe' failed
+mingw32-make.exe[1]: *** [cmTC_a67f4.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_a67f4/fast' failed
+mingw32-make.exe: *** [cmTC_a67f4/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_e892c/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e892c.dir\build.make CMakeFiles/cmTC_e892c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e892c.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_e892c.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e892c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_e892c.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\ccUySq1c.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e892c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_e892c.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\ccUySq1c.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e892c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_e892c.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e892c.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e892c.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_e892c.dir/objects.a @CMakeFiles\cmTC_e892c.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_e892c.dir\build.make:105: recipe for target 'cmTC_e892c.exe' failed
+mingw32-make.exe[1]: *** [cmTC_e892c.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_e892c/fast' failed
+mingw32-make.exe: *** [cmTC_e892c/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_1f3d5/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1f3d5.dir\build.make CMakeFiles/cmTC_1f3d5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f3d5.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_1f3d5.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_1f3d5.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1f3d5.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1f3d5.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_1f3d5.dir/objects.a @CMakeFiles\cmTC_1f3d5.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_1f3d5.dir\build.make:106: recipe for target 'cmTC_1f3d5.exe' failed
+mingw32-make.exe[1]: *** [cmTC_1f3d5.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_1f3d5/fast' failed
+mingw32-make.exe: *** [cmTC_1f3d5/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_2bfc4/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2bfc4.dir\build.make CMakeFiles/cmTC_2bfc4.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bfc4.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_2bfc4.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2bfc4.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_2bfc4.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\cc08TkhE.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2bfc4.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_2bfc4.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\cc08TkhE.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2bfc4.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_2bfc4.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2bfc4.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2bfc4.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_2bfc4.dir/objects.a @CMakeFiles\cmTC_2bfc4.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_2bfc4.dir\build.make:105: recipe for target 'cmTC_2bfc4.exe' failed
+mingw32-make.exe[1]: *** [cmTC_2bfc4.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_2bfc4/fast' failed
+mingw32-make.exe: *** [cmTC_2bfc4/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_50aed/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_50aed.dir\build.make CMakeFiles/cmTC_50aed.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50aed.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_50aed.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_50aed.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_50aed.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_50aed.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_50aed.dir/objects.a @CMakeFiles\cmTC_50aed.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_50aed.dir\build.make:106: recipe for target 'cmTC_50aed.exe' failed
+mingw32-make.exe[1]: *** [cmTC_50aed.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_50aed/fast' failed
+mingw32-make.exe: *** [cmTC_50aed/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_ff140/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ff140.dir\build.make CMakeFiles/cmTC_ff140.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff140.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_ff140.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ff140.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_ff140.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\cceL8yhu.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ff140.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_ff140.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\cceL8yhu.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ff140.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_ff140.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ff140.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ff140.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_ff140.dir/objects.a @CMakeFiles\cmTC_ff140.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_ff140.dir\build.make:105: recipe for target 'cmTC_ff140.exe' failed
+mingw32-make.exe[1]: *** [cmTC_ff140.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_ff140/fast' failed
+mingw32-make.exe: *** [cmTC_ff140/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_d50a8/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d50a8.dir\build.make CMakeFiles/cmTC_d50a8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d50a8.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_d50a8.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_d50a8.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d50a8.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d50a8.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_d50a8.dir/objects.a @CMakeFiles\cmTC_d50a8.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_d50a8.dir\build.make:106: recipe for target 'cmTC_d50a8.exe' failed
+mingw32-make.exe[1]: *** [cmTC_d50a8.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_d50a8/fast' failed
+mingw32-make.exe: *** [cmTC_d50a8/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_bcb75/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bcb75.dir\build.make CMakeFiles/cmTC_bcb75.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcb75.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_bcb75.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bcb75.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_bcb75.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\ccajN2yY.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bcb75.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_bcb75.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\ccajN2yY.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bcb75.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_bcb75.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bcb75.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bcb75.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_bcb75.dir/objects.a @CMakeFiles\cmTC_bcb75.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_bcb75.dir\build.make:105: recipe for target 'cmTC_bcb75.exe' failed
+mingw32-make.exe[1]: *** [cmTC_bcb75.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_bcb75/fast' failed
+mingw32-make.exe: *** [cmTC_bcb75/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_6938b/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6938b.dir\build.make CMakeFiles/cmTC_6938b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6938b.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_6938b.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_6938b.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6938b.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_6938b.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_6938b.dir/objects.a @CMakeFiles\cmTC_6938b.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_6938b.dir\build.make:106: recipe for target 'cmTC_6938b.exe' failed
+mingw32-make.exe[1]: *** [cmTC_6938b.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_6938b/fast' failed
+mingw32-make.exe: *** [cmTC_6938b/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_10d64/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_10d64.dir\build.make CMakeFiles/cmTC_10d64.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10d64.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_10d64.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_10d64.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_10d64.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\ccsXGdZd.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_10d64.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_10d64.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\ccsXGdZd.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_10d64.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_10d64.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_10d64.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_10d64.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_10d64.dir/objects.a @CMakeFiles\cmTC_10d64.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_10d64.dir\build.make:105: recipe for target 'cmTC_10d64.exe' failed
+mingw32-make.exe[1]: *** [cmTC_10d64.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_10d64/fast' failed
+mingw32-make.exe: *** [cmTC_10d64/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_27d52/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_27d52.dir\build.make CMakeFiles/cmTC_27d52.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27d52.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_27d52.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_27d52.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_27d52.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_27d52.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_27d52.dir/objects.a @CMakeFiles\cmTC_27d52.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_27d52.dir\build.make:106: recipe for target 'cmTC_27d52.exe' failed
+mingw32-make.exe[1]: *** [cmTC_27d52.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_27d52/fast' failed
+mingw32-make.exe: *** [cmTC_27d52/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_2e86b/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2e86b.dir\build.make CMakeFiles/cmTC_2e86b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e86b.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_2e86b.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2e86b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_2e86b.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\ccBEKH7B.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2e86b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_2e86b.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\ccBEKH7B.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2e86b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_2e86b.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2e86b.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2e86b.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_2e86b.dir/objects.a @CMakeFiles\cmTC_2e86b.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_2e86b.dir\build.make:105: recipe for target 'cmTC_2e86b.exe' failed
+mingw32-make.exe[1]: *** [cmTC_2e86b.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_2e86b/fast' failed
+mingw32-make.exe: *** [cmTC_2e86b/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_7e105/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7e105.dir\build.make CMakeFiles/cmTC_7e105.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e105.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_7e105.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_7e105.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7e105.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7e105.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_7e105.dir/objects.a @CMakeFiles\cmTC_7e105.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_7e105.dir\build.make:106: recipe for target 'cmTC_7e105.exe' failed
+mingw32-make.exe[1]: *** [cmTC_7e105.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_7e105/fast' failed
+mingw32-make.exe: *** [cmTC_7e105/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_0694a/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0694a.dir\build.make CMakeFiles/cmTC_0694a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0694a.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_0694a.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0694a.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_0694a.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\ccoG2kgh.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0694a.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_0694a.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\ccoG2kgh.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0694a.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_0694a.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0694a.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_0694a.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_0694a.dir/objects.a @CMakeFiles\cmTC_0694a.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_0694a.dir\build.make:105: recipe for target 'cmTC_0694a.exe' failed
+mingw32-make.exe[1]: *** [cmTC_0694a.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_0694a/fast' failed
+mingw32-make.exe: *** [cmTC_0694a/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_f8443/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f8443.dir\build.make CMakeFiles/cmTC_f8443.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8443.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_f8443.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_f8443.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f8443.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f8443.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_f8443.dir/objects.a @CMakeFiles\cmTC_f8443.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_f8443.dir\build.make:106: recipe for target 'cmTC_f8443.exe' failed
+mingw32-make.exe[1]: *** [cmTC_f8443.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_f8443/fast' failed
+mingw32-make.exe: *** [cmTC_f8443/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_7a2e5/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7a2e5.dir\build.make CMakeFiles/cmTC_7a2e5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a2e5.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_7a2e5.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7a2e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_7a2e5.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\ccVYWE3c.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7a2e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_7a2e5.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\ccVYWE3c.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7a2e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_7a2e5.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7a2e5.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7a2e5.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_7a2e5.dir/objects.a @CMakeFiles\cmTC_7a2e5.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_7a2e5.dir\build.make:105: recipe for target 'cmTC_7a2e5.exe' failed
+mingw32-make.exe[1]: *** [cmTC_7a2e5.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_7a2e5/fast' failed
+mingw32-make.exe: *** [cmTC_7a2e5/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_dadfe/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dadfe.dir\build.make CMakeFiles/cmTC_dadfe.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dadfe.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_dadfe.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_dadfe.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dadfe.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_dadfe.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_dadfe.dir/objects.a @CMakeFiles\cmTC_dadfe.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_dadfe.dir\build.make:106: recipe for target 'cmTC_dadfe.exe' failed
+mingw32-make.exe[1]: *** [cmTC_dadfe.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_dadfe/fast' failed
+mingw32-make.exe: *** [cmTC_dadfe/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_5b1b9/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5b1b9.dir\build.make CMakeFiles/cmTC_5b1b9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b1b9.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe   -v -o CMakeFiles\cmTC_5b1b9.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-git-9.2.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 9.2.0 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b1b9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_5b1b9.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\NATANE~1\AppData\Local\Temp\ccVXLbwH.s
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
+ignoring duplicate directory "C:/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (tdm64-1) version 9.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28379e31cc2f1f6d7a657691ed425dfd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b1b9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_5b1b9.dir\CMakeCCompilerABI.c.obj C:\Users\NATANE~1\AppData\Local\Temp\ccVXLbwH.s
+GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
+COMPILER_PATH=C:/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../libexec/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;C:/TDM-GCC/bin/../lib/gcc/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b1b9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_5b1b9.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5b1b9.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5b1b9.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_5b1b9.dir/objects.a @CMakeFiles\cmTC_5b1b9.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_5b1b9.dir\build.make:105: recipe for target 'cmTC_5b1b9.exe' failed
+mingw32-make.exe[1]: *** [cmTC_5b1b9.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_5b1b9/fast' failed
+mingw32-make.exe: *** [cmTC_5b1b9/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC/bin/mingw32-make.exe cmTC_ac2a8/fast && C:/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ac2a8.dir\build.make CMakeFiles/cmTC_ac2a8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac2a8.dir/testCCompiler.c.obj
+C:\TDM-GCC\bin\x86_64-w64-mingw32-gcc.exe    -o CMakeFiles\cmTC_ac2a8.dir\testCCompiler.c.obj -c C:\Users\Natanel-Algoin\Desktop\matam-project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_ac2a8.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ac2a8.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ac2a8.dir/objects.a
+CMAKE_AR-NOTFOUND cr CMakeFiles\cmTC_ac2a8.dir/objects.a @CMakeFiles\cmTC_ac2a8.dir\objects1.rsp
+Error running link command: The system cannot find the file specified
+CMakeFiles\cmTC_ac2a8.dir\build.make:106: recipe for target 'cmTC_ac2a8.exe' failed
+mingw32-make.exe[1]: *** [cmTC_ac2a8.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Natanel-Algoin/Desktop/matam-project/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_ac2a8/fast' failed
+mingw32-make.exe: *** [cmTC_ac2a8/fast] Error 2
+
+
+

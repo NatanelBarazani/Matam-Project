@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/Natanel-Algoin/Desktop/matam-project/build",
+  "command": "C:\\TDM-GCC\\bin\\x86_64-w64-mingw32-gcc.exe   -std=c99 --pedantic-errors -Wall -Werror -g -o CMakeFiles\\my_executable.dir\\hello-world.c.obj -c C:\\Users\\Natanel-Algoin\\Desktop\\matam-project\\hello-world.c",
+  "file": "C:/Users/Natanel-Algoin/Desktop/matam-project/hello-world.c"
+}
+]

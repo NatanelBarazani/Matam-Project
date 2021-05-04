@@ -1,0 +1,72 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/TDM-GCC/lib/gcc/x86_64-w64-mingw32/9.2.0/include",
+						"C:/TDM-GCC/include",
+						"C:/TDM-GCC/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed",
+						"C:/TDM-GCC/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/TDM-GCC/lib/gcc/x86_64-w64-mingw32/9.2.0",
+						"C:/TDM-GCC/lib/gcc",
+						"C:/TDM-GCC/x86_64-w64-mingw32/lib",
+						"C:/TDM-GCC/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/TDM-GCC/bin/x86_64-w64-mingw32-gcc.exe",
+				"version" : "9.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/TDM-GCC/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
